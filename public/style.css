@@ -1,0 +1,42 @@
+.answer,
+.error {
+  background-color: rgba(110, 110, 110, 0.63);
+  color: #d2daff;
+}
+
+.box {
+  width: 96%;
+  margin: 0 auto;
+  left: 0;
+  padding: 10px 10px;
+  background-color: #010517;
+  margin: 10px auto;
+  border-radius: 15px;
+}
+
+.chatarea {
+  scrollbar-width: 1px;
+  scroll-behavior: smooth;
+}
+.question {
+  background-color: #050a23c9;
+  color: #d2daff;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+  scroll-behavior: smooth;
+  width: 1px;
+  background: #020617;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a3b7ca;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #16a34a;
+}

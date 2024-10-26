@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: "#da373d",
+          },
+        },
+      },
+    };
+  </script>
+  
+
+</head>
+
+<body>
+  <div class="container bg-slate-950 m-0 p-0 flex flex-col justify-center items-center">
+    <h1 class=" text-[#d6eadf] text-3xl font-thin bg-[#070c25] w-[100%] flex justify-center items-center m-auto p-5">The
+      Golem</h1>
+    <div
+      class="chatarea my-5 p-10 w-[90%] h-[25rem] text-[#d6eadf] bg-slate-900 shadow-transparent border-blue-500 border rounded-lg overflow-y-auto"
+      id="chatarea">
+    </div>
+
+    <div class="submit w-[90%] rounded-lg mb-2">
+      <div class="input-text w-[100%] bg-slate-950 flex flex-row">
+        <textarea class="text-slate-50 bg-slate-800 w-[100%] flex items-start m-auto rounded-full px-14 py-2 scrollbar "
+          name="input" style="resize: none; outline: none; text-align: left; " id="input" rows="4"></textarea>
+        <button
+          class="text-xl font-normal text-slate-950 p-2 px-8 m-5 mr-0 bg-green-600 rounded-full hover:bg-green-500 duration-300"
+          type="button" id="btn">
+          Send
+        </button>
+      </div>
+    </div>
+    <footer>
+      <h3 class="text-slate-50 font-light m-8">Made by Abhijeet with ❤️ -2024</h3>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

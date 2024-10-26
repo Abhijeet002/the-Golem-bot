@@ -1,0 +1,20 @@
+{
+  "name": "brahma-chatbot",
+  "version": "1.0.0",
+  "description": "chatbot using chatgpt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "who else",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "openai": "^4.68.2"
+  },
+  "devDependencies": {
+    "tailwind-scrollbar": "^3.1.0"
+  }
+}
