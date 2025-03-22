@@ -1,13 +1,16 @@
 import express from "express";
 import OpenAI from "openai";
+import dotenv from "dotenv";
 
+
+dotenv.config();
 const port = 3000;
 
 const app = express()
 app.use(express.static('public'))
 
 const openai = new OpenAI({
-    apiKey: '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'
+    apiKey:  process.env.OPENAI_API_KEY
 })
 
 
